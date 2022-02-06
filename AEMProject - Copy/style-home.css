@@ -1,0 +1,612 @@
+@media only screen and (min-width:1008px) {
+/* header */
+.body{
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #191919;
+    height: 80px;
+}
+.menu{
+    color: white;
+    list-style-type: none;
+    justify-content: flex-start;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu>a>button {
+    margin-left: 7px;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    background: #191919;
+    color: white;
+    padding: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-radius: 3px;
+    border: none;
+    
+}
+.menu>a>button:hover {
+    background: #242424;
+    cursor: pointer;
+}
+.menu>a>button:active {
+    background: #141414;
+    cursor: pointer;
+}
+.logo-btn{
+    background-image: url(../sources/logo.svg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #191919;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    justify-content: flex;
+    display: block;
+    transition: background-image 300ms;
+    padding: 10px;
+    border-radius: 3px;
+}
+.logo-btn:hover{
+    background-image: url(../sources/logo-3.svg);
+    cursor: pointer;
+}
+.logo-btn:active{
+    background-color: #141414;
+}
+.homebtn{
+    font-weight: 700;
+}
+.home-bold{
+    font-weight: 700;
+}
+.qa{
+    margin-right: 25px;
+    border-style: none;
+    background-color: #191919;;
+    padding: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    color:#ffff;
+    font-family: Bandera Pro;
+    font-size: 17px;
+    border-radius: 3px;
+}
+.qa:hover{
+    cursor: pointer;
+    background-color: #242424;
+}
+.qa:active{
+    cursor: pointer;
+    background: #141414;;
+}
+
+/* body */
+.carousel1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-position: bottom;
+    background-image: url(../sources/img/mom-kid-1.jpg);
+    background-size: cover;
+    padding-left: 100px ;
+    margin: 0px;
+    padding: 0px;
+}
+.text{
+    font-family: Montserrat;
+    color: white; 
+    margin-top: 0px;
+    margin:inherit;
+    padding-left: 100px;
+    padding-bottom: 110px;
+}
+.maichina-obich{
+    font-weight: 700;
+}
+.znaem{
+    font-weight: 500;
+    width: 500px;
+}
+.CTA2{
+    margin-top: 20px;
+    border-style: none;
+    background-color: #D5BB59;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-right: 36px;
+    padding-left: 36px;
+    color:#ffff;
+    font-family: Bandera Pro;
+    font-size: 32px;
+    border-radius: 5px;
+}
+.CTA2:hover{
+    background-color: #b99f41;
+    cursor: pointer;
+}
+.CTA2:active{
+    background-color: #a08a39;
+    border: #b99f41;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* footer */
+footer>*{
+    font-family: montserrat;
+    background: #191919;
+    color: white;
+}
+.footer{
+    padding:50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ul{
+    list-style: none;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.a:hover{
+    text-decoration: underline;
+}
+.sub>input{
+    background-color: #141414;
+    border: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.sub>button{
+    background-color: #191919;
+    color: white;
+    font-family: montserrat;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.sub>button:hover{
+    background-color: #242424;
+}
+.sub>button:active{
+    background-color: #141414;
+}
+::placeholder{
+    font-family: montserrat;
+    padding-left: 15px;
+}
+/* TENGO QUE ARREGLAR EL FOOTER  */
+}
+@media only screen and (min-width:641px){
+    .body{
+        margin: 0 auto;
+    }
+    .header{
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: #191919;
+        height: fit-content;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .menu{
+        color: white;
+        list-style-type: none;
+        justify-content: flex-start;
+        display:flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu>a>button {
+        margin-left: 7px;
+        align-items: center;
+        font-family: Montserrat;
+        font-size: 15px;
+        background: #191919;
+        color: white;
+        padding: 8px;
+        padding-right: 13px;
+        padding-left: 13px;
+        border-radius: 3px;
+        border: none;
+        
+    }
+    .menu>a>button:hover {
+        background: #242424;
+        cursor: pointer;
+    }
+    .menu>a>button:active {
+        background: #141414;
+        cursor: pointer;
+    }
+    .logo-btn{
+        background-image: url(../sources/logo.svg);
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #191919;
+        border: none;
+        width: 100px;
+        height: 40px;
+        margin: 20px;
+        justify-content: flex;
+        display: block;
+        transition: background-image 300ms;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    .logo-btn:hover{
+        background-image: url(../sources/logo-3.svg);
+        cursor: pointer;
+    }
+    .logo-btn:active{
+        background-color: #141414;
+    }
+    .homebtn{
+        font-weight: 700;
+    }
+    .home-bold{
+        font-weight: 700;
+    }
+    .qa{
+        margin-right: 25px;
+        border-style: none;
+        background-color: #191919;;
+        padding: 8px;
+        padding-right: 13px;
+        padding-left: 13px;
+        color:#ffff;
+        font-family: Bandera Pro;
+        font-size: 17px;
+        border-radius: 3px;
+    }
+    .qa:hover{
+        cursor: pointer;
+        background-color: #242424;
+    }
+    .qa:active{
+        cursor: pointer;
+        background: #141414;;
+    }
+    
+    /* body */
+    .carousel1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-position: bottom;
+        background-image: url(../sources/img/mom-kid-1.jpg);
+        background-size: cover;
+        padding-left: 100px ;
+        margin: 0px;
+        padding: 0px;
+    }
+    .text{
+        font-family: Montserrat;
+        color: white; 
+        margin-top: 0px;
+        margin:inherit;
+        padding-left: 100px;
+        padding-bottom: 110px;
+    }
+    .maichina-obich{
+        font-weight: 700;
+    }
+    .znaem{
+        font-weight: 500;
+        width: 500px;
+    }
+    .CTA2{
+        margin-top: 20px;
+        border-style: none;
+        background-color: #D5BB59;
+        padding-top: 15px;
+        padding-bottom: 13px;
+        padding-right: 36px;
+        padding-left: 36px;
+        color:#ffff;
+        font-family: Bandera Pro;
+        font-size: 32px;
+        border-radius: 5px;
+    }
+    .CTA2:hover{
+        background-color: #b99f41;
+        cursor: pointer;
+    }
+    .CTA2:active{
+        background-color: #a08a39;
+        border: #b99f41;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    /* footer */
+    footer>*{
+        font-family: montserrat;
+        background: #191919;
+        color: white;
+        flex-wrap: wrap;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul{
+        list-style: none;
+    }
+    .a{
+        text-decoration: none;
+        color: white;
+    }
+    .a:hover{
+        text-decoration: underline;
+    }
+    .sub{
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 0px;
+    }
+    .sub1{
+        padding-left: 40px;
+    }
+    .sub>input{
+        background-color: #141414;
+        border: none;
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .sub>button{
+        background-color: #191919;
+        color: white;
+        font-family: montserrat;
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px;
+
+    }
+    .sub>button:hover{
+        background-color: #242424;
+    }
+    .sub>button:active{
+        background-color: #141414;
+    }
+    ::placeholder{
+        font-family: montserrat;
+        padding-left: 15px;
+    }
+    .ft-cu{
+        flex-wrap: wrap;
+    }
+    .ft-cu>ul{
+        padding:0px;
+    }
+}
+@media only screen and (max-width:640px) {
+    body{
+        margin: 0px;
+    }
+    .header{
+    background-color: #191919;
+        width: auto;
+        height: 350px;
+        display: block;
+        justify-content: center;
+
+    }
+    .menu>a>button {
+        margin-left: 7px;
+        align-items: center;
+        font-family: Montserrat;
+        font-size: 15px;
+        background: #191919;
+        color: white;
+        padding: 8px;
+        padding-right: 13px;
+        padding-left: 13px;
+        border-radius: 3px;
+        border: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .menu>a>button:hover{
+        background: #242424;
+        cursor: pointer;
+    }
+    .menu>a>button:active{
+        background: #141414;
+        cursor: pointer;
+    }
+
+    .logo-btn{
+        background-image: url(../sources/logo2.svg);
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #191919;
+        border: none;
+        width: 100px;
+        height: 40px;
+        justify-content: flex;
+        display: block;
+        transition: background-image 300ms;
+        padding: 60px;
+        padding-top: 10px;
+        padding-bottom: 90px;
+        border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .qa{
+        margin-right: 25px;
+        border-style: none;
+        background-color: #191919;;
+        padding: 8px;
+        padding-right: 13px;
+        padding-left: 13px;
+        color:#ffff;
+        font-family: Bandera Pro;
+        font-size: 17px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        display: block;
+        width: 100%;
+    }
+    .qa:hover{
+        cursor: pointer;
+        background-color: #242424;
+    }
+    .qa:active{
+        cursor: pointer;
+        background: #141414;;
+    }
+    .carousel1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-position: bottom;
+        background-image: url(../sources/img/mom-kid-1.jpg);
+        background-size: cover;
+        margin: 0px;
+        padding-top: 0px;
+        padding-bottom: 110px;
+    }
+    .text{
+        font-family: montserrat;
+        color: white;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .znaem{
+        font-weight: 500;
+    }
+    .CTA2{
+        margin-top: 10px;
+        border-style: none;
+        background-color: #D5BB59;
+        padding-top: 6px;
+        padding-bottom: 4px;
+        padding-right: 13px;
+        padding-left: 13px;
+        color:#ffff;
+        font-family: Bandera Pro;
+        font-size: 25px;
+        border-radius: 5px;
+    }
+    .CTA2:hover{
+        background-color: #b99f41;
+        cursor: pointer;
+    }
+    .CTA2:active{
+        background-color: #a08a39;
+        border: #b99f41;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    
+    footer>*{
+        font-family: montserrat;
+        background: #191919;
+        color: white;
+    }
+    .footer{
+        display: block;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul{
+        list-style: none;
+    }
+    .a{
+        text-decoration: none;
+        color: white;
+    }
+    .a:hover{
+        text-decoration: underline;
+    }
+    .sub{
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 0px;
+    }
+    .sub1{
+        padding-left: 40px;
+    }
+    .sub>input{
+        background-color: #141414;
+        border: none;
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .sub>button{
+        background-color: #191919;
+        color: white;
+        font-family: montserrat;
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px;
+
+    }
+    .sub>button:hover{
+        background-color: #242424;
+    }
+    .sub>button:active{
+        background-color: #141414;
+    }
+    ::placeholder{
+        font-family: montserrat;
+        padding-left: 15px;
+    }
+    .ft-cu{
+        flex-wrap: wrap;
+    }
+    .ft-cu>ul{
+        padding:0px;
+    }
+}

@@ -1,0 +1,200 @@
+/* header */
+.body{
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #191919;
+    height: 80px;
+}
+.menu{
+    color: white;
+    list-style-type: none;
+    justify-content: flex-start;
+    display:flex;
+    align-items: center;
+}
+.menu>a>button {
+    margin-left: 7px;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    background: #191919;
+    color: white;
+    padding: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-radius: 3px;
+    border: none;
+    
+}
+.menu>a>button:hover {
+    background: #242424;
+    cursor: pointer;
+}
+.menu>a>button:active {
+    background: #141414;
+    cursor: pointer;
+}
+.logo-btn{
+    background-image: url(../sources/logo.svg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #191919;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    justify-content: flex;
+    display: block;
+    transition: background-image 300ms;
+    padding: 10px;
+    border-radius: 3px;
+}
+.logo-btn:hover{
+    background-image: url(../sources/logo-3.svg);
+    cursor: pointer;
+}
+.logo-btn:active{
+    background-color: #141414;
+}
+.btn{
+    font-weight: 700;
+}
+.home-bold{
+    font-weight: 700;
+}
+.qa{
+    margin-right: 25px;
+    border-style: none;
+    background-color: #191919;;
+    padding: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    color:#ffff;
+    font-family: Bandera Pro;
+    font-size: 17px;
+    border-radius: 3px;
+}
+.qa:hover{
+    cursor: pointer;
+    background-color: #242424;
+}
+.qa:active{
+    cursor: pointer;
+    background: #141414;;
+}
+/* body */
+
+.carrousel{
+    width: 100%;
+    height: 262px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    background: url(../sources/img/sunset.jpg);
+}
+.text{
+    color: #ffff;
+    margin:auto;
+    font-family: montserrat;
+    text-align: center;
+}
+.text>h1{
+    font-family: montserrat;
+    font-weight: 800;
+    color: #ffff;
+    margin:auto;
+    font-size: 50px;
+}
+.text>p{
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 20px;
+    margin: auto;
+}
+.rq{
+    font-weight: 300;
+    color: red;
+}
+.body{
+    margin: 50px;
+}
+.packs{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+}
+.packs>div{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.packs>div>div>h1{
+    font-family: Montserrat;
+}
+.packs>div>div>ul>li{
+    font-family: Roboto;
+}
+/* footer */
+footer>*{
+    font-family: montserrat;
+    background: #191919;
+    color: white;
+}
+.footer{
+    padding:50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ul{
+    list-style: none;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.a:hover{
+    text-decoration: underline;
+}
+.sub>input{
+    background-color: #141414;
+    border: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.sub>button{
+    background-color: #191919;
+    color: white;
+    font-family: montserrat;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.sub>button:hover{
+    background-color: #242424;
+}
+.sub>button:active{
+    background-color: #141414;
+}
+::placeholder{
+    font-family: montserrat;
+    padding-left: 15px;
+}
